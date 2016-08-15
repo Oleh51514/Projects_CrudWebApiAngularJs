@@ -1,0 +1,1 @@
+"use strict";app.config(["RestangularProvider","config",function(a,e){a.setBaseUrl(e.baseUrl+"api/")}]);

@@ -1,0 +1,1 @@
+"use strict";app.factory("roleService",["Restangular",function(e){var t={},n=function(t){return e.one("Roles",t).get()},r=function(){return e.all("Roles").getList()},u=function(e){return e.save()},o=function(e){return e.remove()};return t.get=n,t.getAll=r,t.save=u,t["delete"]=o,t}]);

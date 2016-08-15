@@ -1,0 +1,1 @@
+app.config(["RestangularProvider",function(t){t.addResponseInterceptor(function(t,e,a,n,o,r){var s;return"getList"===e&&"GetPageData"===a?(s=t.items,s.totalItems=t.totalItems):s=t,s})}]);

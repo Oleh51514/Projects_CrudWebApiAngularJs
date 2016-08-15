@@ -1,0 +1,44 @@
+.employee-page {
+  padding-top: 20px;
+  margin: 0 15px;
+  position: absolute;
+  top: 35px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* Ui-grid */
+}
+.employee-page .myBtn-create,
+.employee-page .myBtn-create > .btn {
+  padding: 3px 10px;
+  margin: 5px 0;
+}
+.employee-page .myInput-search {
+  padding: 5px 10px;
+  height: 26px;
+  box-shadow: none;
+  font-size: 12px;
+}
+.employee-page .input-group-sm > .form-control,
+.employee-page .input-group-sm > .input-group-addon,
+.employee-page .input-group-sm > .input-group-btn > .btn {
+  height: 26px;
+  font-size: 12px;
+  padding: 3px 10px;
+}
+.employee-page .grid-wrap {
+  position: absolute;
+  top: 100px;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+}
+.employee-page .grid-wrap input,
+.employee-page .grid-wrap button,
+.employee-page .grid-wrap select,
+.employee-page .grid-wrap textarea {
+  font-size: 12px;
+}
+.employee-page .grid-wrap .ui-grid-top-panel {
+  font-size: 12px;
+}

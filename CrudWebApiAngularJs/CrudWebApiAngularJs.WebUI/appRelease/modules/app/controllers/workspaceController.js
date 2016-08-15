@@ -1,0 +1,1 @@
+"use strict";app.controller("workspaceController",["$state","authService","$scope","$rootScope",function(t,e,o,a){o.userData={name:e.authentication.userName,email:e.authentication.userEmail},o.$state=t,o.logOut=function(){e.logOut(),t.go("login")}}]);

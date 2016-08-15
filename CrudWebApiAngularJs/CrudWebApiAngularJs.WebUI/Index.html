@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html data-ng-app="App">
+<head>
+    <link rel="shortcut icon" href="/icon.ico" type="image/ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>CRUD</title>
+
+    <!-- thirdpartycss:css -->
+    <link rel="stylesheet" href="dist/lib/bootstrap.css">
+    <link rel="stylesheet" href="dist/lib/ng-notify.css">
+    <link rel="stylesheet" href="dist/lib/select.css">
+    <link rel="stylesheet" href="dist/lib/ui-grid.css">
+    <!-- endinject -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="content/fonts/connectFonts.css">
+    <link rel="stylesheet" href="content/styles/common/common.css">
+    <link rel="stylesheet" href="content/styles/layouts/workspace.css">
+    <link rel="stylesheet" href="content/styles/pages/department.css">
+    <link rel="stylesheet" href="content/styles/pages/employee.css">
+    <link rel="stylesheet" href="content/styles/pages/workHub.css">
+    <!-- endinject -->
+
+</head>
+
+<body>
+    <ui-view name=""></ui-view>   
+
+    <!-- thirdparty:js -->    
+    <script src="dist/lib/angular.js"></script>    
+    <script src="dist/lib/valdr.js"></script>    
+    <script src="dist/lib/valdr-message.js"></script>    
+    <script src="dist/lib/angular-animate.js"></script>    
+    <script src="dist/lib/angular-local-storage.js"></script>    
+    <script src="dist/lib/angular-route.js"></script>    
+    <script src="dist/lib/angular-sanitize.js"></script>    
+    <script src="dist/lib/angular-ui-router.js"></script>    
+    <script src="dist/lib/ng-notify.js"></script>    
+    <script src="dist/lib/restangular.js"></script>    
+    <script src="dist/lib/select.js"></script>    
+    <script src="dist/lib/ui-bootstrap-tpls.js"></script>    
+    <script src="dist/lib/ui-grid.js"></script>    
+    <script src="dist/lib/underscore.js"></script>    
+    <!-- endinject -->
+
+    <!-- inject:js -->   
+    <script src="app/modules/app/app.js"></script>   
+    <script src="app/JavaScript.js"></script>   
+    <script src="app/common/services/appUserService.js"></script>   
+    <script src="app/common/services/authInterceptorService.js"></script>   
+    <script src="app/common/services/authService.js"></script>   
+    <script src="app/common/services/departmentService.js"></script>   
+    <script src="app/common/services/employeeService.js"></script>   
+    <script src="app/common/services/invitationService.js"></script>   
+    <script src="app/common/services/roleService.js"></script>   
+    <script src="app/modules/authorization/authorization.js"></script>   
+    <script src="app/modules/department/department.js"></script>   
+    <script src="app/modules/employee/employee.js"></script>   
+    <script src="app/modules/home/home.js"></script>   
+    <script src="app/modules/invitation/invitation.js"></script>   
+    <script src="app/modules/app/configs/appConfig.js"></script>   
+    <script src="app/modules/app/configs/appInterceptors.js"></script>   
+    <script src="app/modules/app/configs/appRestagular.js"></script>   
+    <script src="app/modules/app/configs/appRouter.js"></script>   
+    <script src="app/modules/app/configs/appValdr.js"></script>   
+    <script src="app/modules/app/constants/appRolesConstant.js"></script>   
+    <script src="app/modules/app/controllers/workHubController.js"></script>   
+    <script src="app/modules/app/controllers/workspaceController.js"></script>   
+    <script src="app/modules/authorization/controllers/loginController.js"></script>   
+    <script src="app/modules/authorization/controllers/signUpController.js"></script>   
+    <script src="app/modules/department/controllers/departmentController.js"></script>   
+    <script src="app/modules/department/controllers/departmentTableController.js"></script>   
+    <script src="app/modules/employee/controllers/employeeController.js"></script>   
+    <script src="app/modules/employee/controllers/employeeTableController.js"></script>   
+    <script src="app/modules/home/controllers/homeController.js"></script>   
+    <script src="app/modules/invitation/controllers/inviteUserController.js"></script>   
+    <!-- endinject -->
+
+</body>
+</html>

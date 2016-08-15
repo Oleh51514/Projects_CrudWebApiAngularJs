@@ -1,0 +1,1 @@
+"use strict";app.controller("workHubController",["$scope","$rootScope",function(e,t){e.tabs=[{title:"Departments",route:"department",active:!1},{title:"Employees",route:"employee",active:!0}],t.$watch(function(){return e.tabs[1].active},function(e,t){if(1==e);}),e.goToEmployee=function(){e.$broadcast("tabEmployeeEvent",{someProp:"Sending you an Object!"})}}]);

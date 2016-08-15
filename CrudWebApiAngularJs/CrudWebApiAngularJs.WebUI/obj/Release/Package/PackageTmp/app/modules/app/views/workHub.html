@@ -1,0 +1,14 @@
+﻿<div class="workHub">
+    <uib-tabset active="active">
+        <!--<uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active">
+            <div ui-view="{{tab.route}}"></div>
+        </uib-tab>-->
+
+        <uib-tab index="1" heading="Departments"  select="">
+            <div ui-view="department"></div>           
+        </uib-tab>
+        <uib-tab index="2" heading="Employees" select="goToEmployee()">
+            <div ui-view="employee"></div>
+        </uib-tab>
+    </uib-tabset>
+</div>

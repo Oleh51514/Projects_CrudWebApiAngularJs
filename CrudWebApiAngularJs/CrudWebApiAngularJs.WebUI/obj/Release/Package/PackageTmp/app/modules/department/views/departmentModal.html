@@ -1,0 +1,45 @@
+﻿<div class="modal-header">
+    <p class="modal-title">TIME TRACKER</p>
+</div>
+<div class="modal-body">
+    <form name="editForm" novalidate valdr-type="department">
+        <div class="form-group">
+            <div valdr-form-group>
+                <label class="control-label" for="description">Name:</label>
+                <input type="text"
+                       class="form-control"
+                       id="name"
+                       ng-model="departmentEntity.name"
+                       name="name"
+                       placeholder="enter discription" />
+            </div>
+        </div>  
+        <div class="form-group">
+            <div valdr-form-group>
+                <label class="control-label" for="description">Description:</label>
+                <input type="text"
+                       class="form-control"
+                       id="description"
+                       ng-model="departmentEntity.description"
+                       name="description"
+                       placeholder="enter discription" />
+            </div>
+        </div>        
+        <div class="form-group">
+            <div valdr-form-group>
+                <label class="control-label" for="date">Date</label>
+                <p class="input-group">
+                    <input type="text" id="date" name="date" class="form-control" uib-datepicker-popup="dd-MMMM-yyyy" ng-model="departmentEntity.createdAt" is-open="popup1.opened" datepicker-options="dateOptions" close-text="Close" alt-input-formats="altInputFormats" />
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <!-- because ng-disabled wait for function expression we could only use OR condition -->
+    <button class="btn btn-primary" type="button" ng-click="ok()" ng-disabled="isSaving || !editForm.$valid">OK</button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()" ng-disabled="isSaving">Cancel</button>
+</div>

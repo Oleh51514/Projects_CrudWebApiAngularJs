@@ -1,0 +1,58 @@
+﻿<div class="modal-header">
+    <p class="modal-title">TIME TRACKER</p>
+</div>
+<div class="modal-body">
+    <form name="editForm" novalidate valdr-type="employee">
+        <div class="form-group">
+            <div valdr-form-group>
+                <label class="control-label" for="description">First name:</label>
+                <input type="text"
+                       class="form-control"
+                       id="firstName"
+                       ng-model="employeeEntity.firstName"
+                       name="firstName"
+                       placeholder="enter first name" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div valdr-form-group>
+                <label class="control-label">Last name:</label>
+                <input type="text"
+                       class="form-control"
+                       id="lastName"
+                       ng-model="employeeEntity.lastName"
+                       name="lastName"
+                       placeholder="enter last name" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div valdr-form-group>
+                <label class="control-label">Age:</label>
+                <input type="number"
+                       class="form-control"
+                       id="age"
+                       ng-model="employeeEntity.age"
+                       name="age"
+                       placeholder="enter last name" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div valdr-form-group>
+                <label class="control-label" for="department">Select project:</label>
+                <ui-select name="department" ng-model="employeeEntity.department" theme="bootstrap" enable-valdr-validation enable-valdr-message>
+                    <ui-select-match placeholder="Select a project..." class="whatever">
+                        <span ng-bind="$select.selected.name"></span>
+                    </ui-select-match>
+                    <ui-select-choices class="whatever" repeat="item in departments">
+                        <span ng-bind="item.name"></span>
+                    </ui-select-choices>
+                </ui-select>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <!-- because ng-disabled wait for function expression we could only use OR condition -->
+    <button class="btn btn-primary" type="button" ng-click="ok()" ng-disabled="isSaving || !editForm.$valid">OK</button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()" ng-disabled="isSaving">Cancel</button>
+</div>

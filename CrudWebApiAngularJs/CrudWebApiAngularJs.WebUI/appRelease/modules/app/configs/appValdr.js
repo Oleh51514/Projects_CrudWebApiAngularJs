@@ -1,0 +1,1 @@
+app.config(["valdrProvider",function(e){e.addConstraints({employee:{firstName:{required:{message:"first name required"}},lastName:{required:{message:"last name required"}},age:{required:{message:"age required"}}},department:{name:{required:{message:"name required"}},description:{required:{message:"description required"}},date:{required:{message:"date required"}}}})}]);

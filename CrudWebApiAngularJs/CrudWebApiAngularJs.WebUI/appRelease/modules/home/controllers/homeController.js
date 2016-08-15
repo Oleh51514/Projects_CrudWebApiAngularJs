@@ -1,0 +1,1 @@
+"use strict";home.controller("homeController",["$scope",function(o){}]);

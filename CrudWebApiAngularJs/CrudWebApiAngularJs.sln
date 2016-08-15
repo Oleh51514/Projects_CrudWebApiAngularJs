@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApiAngularJs.BL", "CrudWebApiAngularJs.BL\CrudWebApiAngularJs.BL.csproj", "{43899082-EA5D-42EE-9FCD-57A2CB116B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApiAngularJs.Bootstrap", "CrudWebApiAngularJs.Bootstrap\CrudWebApiAngularJs.Bootstrap.csproj", "{8D28F8FE-0B4C-4AA5-BB0C-FCBCBBC4D227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApiAngularJs.Common", "CrudWebApiAngularJs.Common\CrudWebApiAngularJs.Common.csproj", "{B345D44F-9380-4BF0-BB8D-FB5C1C1C9CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApiAngularJs.DAL", "CrudWebApiAngularJs.DAL\CrudWebApiAngularJs.DAL.csproj", "{825F0971-4978-482E-8CC1-99D6A21A171E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApiAngularJs.WebUI", "CrudWebApiAngularJs.WebUI\CrudWebApiAngularJs.WebUI.csproj", "{4504E02F-86C4-47AC-A6AE-36E2D1CCC85F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApiAngularJs.API", "CrudWebApiAngularJs.API\CrudWebApiAngularJs.API.csproj", "{62BE73E6-31EE-4A8F-94F4-1EB2FA7EA28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApiAngularJs.Tests", "CrudWebApiAngularJs.Tests\CrudWebApiAngularJs.Tests.csproj", "{6A027BB2-E989-43C2-BAA9-6BA91A030B6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43899082-EA5D-42EE-9FCD-57A2CB116B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43899082-EA5D-42EE-9FCD-57A2CB116B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43899082-EA5D-42EE-9FCD-57A2CB116B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43899082-EA5D-42EE-9FCD-57A2CB116B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D28F8FE-0B4C-4AA5-BB0C-FCBCBBC4D227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D28F8FE-0B4C-4AA5-BB0C-FCBCBBC4D227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D28F8FE-0B4C-4AA5-BB0C-FCBCBBC4D227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D28F8FE-0B4C-4AA5-BB0C-FCBCBBC4D227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B345D44F-9380-4BF0-BB8D-FB5C1C1C9CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B345D44F-9380-4BF0-BB8D-FB5C1C1C9CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B345D44F-9380-4BF0-BB8D-FB5C1C1C9CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B345D44F-9380-4BF0-BB8D-FB5C1C1C9CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825F0971-4978-482E-8CC1-99D6A21A171E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825F0971-4978-482E-8CC1-99D6A21A171E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825F0971-4978-482E-8CC1-99D6A21A171E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825F0971-4978-482E-8CC1-99D6A21A171E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4504E02F-86C4-47AC-A6AE-36E2D1CCC85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4504E02F-86C4-47AC-A6AE-36E2D1CCC85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4504E02F-86C4-47AC-A6AE-36E2D1CCC85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4504E02F-86C4-47AC-A6AE-36E2D1CCC85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BE73E6-31EE-4A8F-94F4-1EB2FA7EA28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BE73E6-31EE-4A8F-94F4-1EB2FA7EA28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BE73E6-31EE-4A8F-94F4-1EB2FA7EA28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BE73E6-31EE-4A8F-94F4-1EB2FA7EA28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A027BB2-E989-43C2-BAA9-6BA91A030B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A027BB2-E989-43C2-BAA9-6BA91A030B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A027BB2-E989-43C2-BAA9-6BA91A030B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A027BB2-E989-43C2-BAA9-6BA91A030B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://florynskyi-projects.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CrudWebApiAngularJs.BL\\CrudWebApiAngularJs.BL.csproj
+		SccProjectName1 = CrudWebApiAngularJs.BL
+		SccLocalPath1 = CrudWebApiAngularJs.BL
+		SccProjectUniqueName2 = CrudWebApiAngularJs.Bootstrap\\CrudWebApiAngularJs.Bootstrap.csproj
+		SccProjectName2 = CrudWebApiAngularJs.Bootstrap
+		SccLocalPath2 = CrudWebApiAngularJs.Bootstrap
+		SccProjectUniqueName3 = CrudWebApiAngularJs.Common\\CrudWebApiAngularJs.Common.csproj
+		SccProjectName3 = CrudWebApiAngularJs.Common
+		SccLocalPath3 = CrudWebApiAngularJs.Common
+		SccProjectUniqueName4 = CrudWebApiAngularJs.DAL\\CrudWebApiAngularJs.DAL.csproj
+		SccProjectName4 = CrudWebApiAngularJs.DAL
+		SccLocalPath4 = CrudWebApiAngularJs.DAL
+		SccProjectUniqueName5 = CrudWebApiAngularJs.WebUI\\CrudWebApiAngularJs.WebUI.csproj
+		SccProjectName5 = CrudWebApiAngularJs.WebUI
+		SccLocalPath5 = CrudWebApiAngularJs.WebUI
+		SccProjectUniqueName6 = CrudWebApiAngularJs.API\\CrudWebApiAngularJs.API.csproj
+		SccProjectName6 = CrudWebApiAngularJs.API
+		SccLocalPath6 = CrudWebApiAngularJs.API
+		SccProjectUniqueName7 = CrudWebApiAngularJs.Tests\\CrudWebApiAngularJs.Tests.csproj
+		SccProjectName7 = CrudWebApiAngularJs.Tests
+		SccLocalPath7 = CrudWebApiAngularJs.Tests
+	EndGlobalSection
+EndGlobal
